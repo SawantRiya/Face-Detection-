@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Student Attendance System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Student Attendance System</h1>
+        <div class="attendance-form">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" placeholder="Enter name">
+
+            <label for="studentID">Student ID:</label>
+            <input type="text" id="studentID" placeholder="Enter ID">
+
+            <button onclick="markAttendance()">Mark Attendance</button>
+        </div>
+        <div class="attendance-list">
+            <h2>Attendance List</h2>
+            <ul id="attendanceList"></ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
